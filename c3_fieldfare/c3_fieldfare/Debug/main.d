@@ -20,13 +20,14 @@ main.d main.o: .././main.c ../HAL_Drivers/hal_common.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
  ../HAL_Drivers/clock_system.h ../HAL_Drivers/gpio.h ../HAL_Drivers/spi.h \
  ../HAL_Drivers/usart.h ../HAL_Drivers/hal_common.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
  ../HAL_Drivers/serial_stdio.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdarg.h \
  ../HAL_Drivers/usart.h ../Additional_Drivers/ssd1306/ssd1306.h \
  ../Additional_Drivers/ssd1306/font.h \
  ../Additional_Drivers/ssd1306/gfx_mono.h \
- ../Additional_Drivers/esp8266/esp8266.h \
+ ../Additional_Drivers/esp8266/esp8266nodemcu.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h
 
 ../HAL_Drivers/hal_common.h:
@@ -79,6 +80,8 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ../HAL_Drivers/hal_common.h:
 
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h:
+
 ../HAL_Drivers/serial_stdio.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdio.h:
@@ -93,6 +96,6 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\
 
 ../Additional_Drivers/ssd1306/gfx_mono.h:
 
-../Additional_Drivers/esp8266/esp8266.h:
+../Additional_Drivers/esp8266/esp8266nodemcu.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:

@@ -112,6 +112,7 @@
             <Value>../Additional_Drivers</Value>
             <Value>../Additional_Drivers/ssd1306</Value>
             <Value>../Additional_Drivers/esp8266</Value>
+            <Value>../Additional_Drivers/esp8266_nodemcu</Value>
           </ListValues>
         </avrgcc.compiler.directories.IncludePaths>
         <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -130,6 +131,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Additional_Drivers\esp8266\esp8266.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Additional_Drivers\esp8266\esp8266nodemcu.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Additional_Drivers\ssd1306\font.c">

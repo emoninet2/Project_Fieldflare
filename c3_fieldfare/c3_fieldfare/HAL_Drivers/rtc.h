@@ -146,15 +146,12 @@ void rtc_ms_delay(int ms){
 }
 
 
-
-
 /*
  *	interrupt service routine for overflow interrupt event
  */
 ISR(RTC_OVF_vect)
 {
-	rtc_tick++;
-	
+	rtc_tick++;	
 }
 
 
@@ -166,6 +163,8 @@ ISR(RTC_COMP_vect)
 
 
 }
+
+
 #ifdef __cplusplus
 }
 #endif

@@ -460,12 +460,12 @@ void ssd1306_init(void)
  * \brief Display text on OLED screen.
  * \param string String to display.
  */
-void ssd1306_write_text(const char *string)
+void ssd1306_write_text(char *string)
 {
 	uint8_t *char_ptr;
 	uint8_t i;
 
-	while (*string != 0) {
+	while (*string != '\0') {
 		if (*string < 0x7F) {
 			char_ptr = font_table[*string - 32];
 			for (i = 1; i <= char_ptr[0]; i++) {
